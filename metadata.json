@@ -1,0 +1,65 @@
+{
+  "title": "Emacser, Software engineer & open-source maintainer",
+  "desc": [
+    "一个大数据、分布式系统开发的程序员。",
+    "Emacs 插件开发者。",
+    "喜欢读杂书，写闲文。"
+  ],
+  "avatar": "./Avatar.png",
+  "links": [
+    {
+      "name": "github",
+      "icon": "/assets/icons/github.svg",
+      "value": "https://github.com/ginqi7"
+    },
+    {
+      "name": "gmail",
+      "icon": "/assets/icons/mail.svg",
+      "value": "ginqi7@gmail.com"
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-articles",
+      "name": "Articles",
+      "url": "https://qiqijin.com/zh-blog/",
+      "more": "https://qiqijin.com/zh-blog/",
+      "match": ".post-card",
+      "properties": {
+        "title": [".card-title a", "text"],
+        "url": ["a", "url"],
+        "desc": [".card-summary", "text"]
+      }
+    },
+    {
+      "id": "section-books",
+      "name": "Books",
+      "url": "https://qiqijin.com/books/",
+      "more": "https://qiqijin.com/books/",
+      "match": ".library__book",
+      "properties": {
+        "title": [".book-title", "text"],
+        "url": ["a", "url"]
+      }
+    },
+    {
+      "id": "section-videos",
+      "type": "bilibli",
+      "name": "Videos",
+      "userID": "54001448",
+      "more": "https://space.bilibili.com/54001448"
+    },
+    {
+      "id": "section-projects",
+      "name": "Projects",
+      "url": "https://github.com/ginqi7?tab=repositories&q=&type=&language=&sort=stargazers",
+      "more": "https://github.com/ginqi7",
+      "match": ".source",
+      "properties": {
+        "title": [".wb-break-all a", "text"],
+        "url": [".wb-break-all a", "url"],
+        "desc": ["[itemprop=\"description\"]", "text"]
+      }
+    }
+  ]
+}
