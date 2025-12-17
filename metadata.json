@@ -5,16 +5,17 @@
     "Emacs 插件开发者。",
     "喜欢读杂书，写闲文。"
   ],
+  "baseURL": "/zh/",
   "avatar": "./Avatar.png",
   "links": [
     {
       "name": "github",
-      "icon": "/assets/icons/github.svg",
+      "icon": "./assets/icons/github.svg",
       "value": "https://github.com/ginqi7"
     },
     {
       "name": "gmail",
-      "icon": "/assets/icons/mail.svg",
+      "icon": "./assets/icons/mail.svg",
       "value": "ginqi7@gmail.com"
     }
   ],
